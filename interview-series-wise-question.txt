@@ -1,0 +1,1050 @@
+General
+=======
+1) What are the tools you are using in your environment ?
+2) any work exp with azure,GCP
+3) what is agile methodology
+4) What are the services you are using ?
+5) recent task you did
+6) about migration on-prem to aws cloud?
+7) which idea you suggested to our company? is it implemented?
+8) Draw an Architecture Diagram?
+9) what is the recent issue you are faced
+10) write a mail to your manager, about your this week tasks and next week tasks?
+11) You know what Fynd company will do?
+12) What did you do in the last 6 months?
+13) Tell me what is the recent issue you faced?
+14) Tell me about yourself and roles and responsibility and day to day activities and
+what type of technologies you are using and what type of automation tool you are
+using?
+15) Tell me about yourself?
+16)Tell me your day to day activities?
+17)Tell me a few AWS services and tell me one point about the service?
+18) Tell me the services which you are using?
+19) How do you secure your AWS Cloud
+20) What are the Security Tools available in the Market?
+21) Tell me about infra services which you used.
+22) How do you ensure your project architecture is highly available?
+23) How traffic iteration is happening in your project?
+24) What AWS services are you using?
+25) How do you send certificate notifications to end users in AWS?
+26) How to optimize cost in aws
+27) As a team lead, how to design the 3 tier architecture
+28) Customer doesn't have the technical skills, what would be your approach
+at the requirement stage is final, for proposing the resources
+29) How to take this discussion for the next level as a
+   materializing this project at the requirement stage
+
+
+
+
+
+
+IAM
+=====
+1) explain paas,saas, iaas ?
+2) Why do we use IAM?
+3) how can you give s3 policy in the IAM role?
+4) the iam role created, who used this role how can you know?
+5) What is the difference between iam role and trust factor?
+6) What is IAM?
+7) What is the use of amazon gratuity policy
+8) Have you worked on any policies in iam?
+9) What is sts assumerole?
+10) What is the difference between policies and roles?
+11) I have a user. How to attach a role to the user?
+12) What is the purpose of user groups?
+13) How do you give particular permissions to a service?
+EC2
+=====
+1) What is meant by 0 down time ?
+2) What blue green deployment ?
+3) How many ways can we increase volume? Tell me the commands?
+4) What language app are you working on ?
+5) Diff between stopping and terminating the instances?
+6) I have a 1 instance in that instance inside an application but i don't want to
+access the application, can you access it only inside? What do you do?
+7) i am getting a timed_out error for this the sg and private key is in good condition?
+How can you resolve it?
+8) How do you keep a secure instance in aws ??
+9) How do you make a connection between EC2 and S3??
+10)Difference between region and availability zone?
+11) How to find how long the server is running?
+12) what is Assume role and what is the use of Assume role
+13) use of profile instance?
+14)How ec2 instance communicate with s3 bucket
+15) Tell me the purchase plans of an ec2?
+16) Tell me a spot and reserved instance?
+17) What is an instance profile?
+18) what is zombie process
+19) Overnight the cost of instance has increased a lot? What do you suggest?
+20) Difference between Iam role and instance profile
+21) EC2 family types?
+22) What is the spot instance and when do we go with the spot instance?
+23) what is sticky session in Load balancer
+24) How to change family type?
+25) ami vs snapshot
+26) types of ami
+27) end user unable to access URL (HTTPs//atcd.com) product URL, whitelisting his
+IP but he is not accessing the URL? How will you check that?
+28) my product will be reaching up to 200 tps for sec that is customer expectation,
+based on that configure 10 api servers and other servers,they have performing a
+node test in first node test we were able to achieve the 200tps they are in live
+facing some issue?how do we handle the traffic?
+29) In an auto scaling group we have multiple configurations,we do a number of
+configurations,when we say sustained prose there will be a couple of
+options,what are the options,why is it used,what activity do those options do?
+30) if we want to launch an instance what are the prereq that we want in terms of
+resources
+31) Can we attach multiple vol to one instance.?
+32) Can we attach one volume to multiple instance.?
+33) diff bet. EBS vs S3.
+34) How can s3 be used with ec2 instances?
+35) Tell me the difference b/w the EBS,EFS and S3?
+36) I have one instance ,i lost my keypair but I want to login to the meachin. How will
+you do that?
+37) I have one instance where the traffic is high,what can I do about that?
+38) in AWS when the load is high the alternative of the opposition when the cpu and
+memory and how can i remedy that?
+39) There is an instance that has been terminated and furtherly u created a new
+one, while the ssh fingerprint already exists in jenkins because of that you are
+unable to do ssh, what would be your inputs to fix this issue? any automation that
+you did
+40) how do you attach another volume with the EBS volume in an instance?
+41) IP address classes?
+42) What is a subnet mask?
+43) What is the region?
+44) What is the availability zone?
+45) what is the difference between Linux and ubuntu
+46)write a shell script for knowing how many ports are listening or not?
+47)What is the apache module?
+48)How are you using the Nginx server?
+49)What storage services have you worked on?
+50)What about EBS and EFS?
+51) What are the different types of instance types in ec2?
+52) How do you take auto backup of an application data which is running on ec2?
+53) What are the HTTP port number and HTTPS port number?
+54) What is the ssh port number?
+55) Root Vol of ec2 gone corrupted, so my ec2 is not responding,
+56) How are you going to recover from this situation?
+57) A 3 layer architecture is there with one Region, 1 AZ, application on 1 ec2,
+how to scale this appl with HA/Failover
+
+
+VPC
+========
+1) What is vpc and what subnet ?
+2) diff between nat and igw
+3) I have 6 vpc how to connect all vpcs ?
+4) What is vpc? Difference between public subnet and private subnet?
+5) What is a multi region?
+6) I have a 2 aws accounts 1 AWS account have a lower environment and 2 AWS
+account have prod? I have 1 AWS account in that account have a prod and lower
+environment? So which one is preferred and how prefered?
+7) Do you know how to send the logs? and which tool you are using?
+8) What is vpc peering and what are vpc endpoints?
+9) What are the components in vpc?
+10) What is nat-gw in vpc?
+11)Vpc peering
+12) How do you check logs in vpc?
+13)Public subnet and private subnet
+14)What is NAT gateway ??
+15) What is Nat-GW?
+16) What is VPC Peering?
+17)Why natgw and IGw are used.
+18)How to convert public subnet to private subnet
+19) How will you identify which is private subnet and public subnet
+20) What is a private link?
+21) HPA vs VPC
+22) Components of vpc
+23) Nat-GW work
+24) What is vpc and tell me how it will be created?
+25) What is NAT gateway?
+26) What are the advantages of a public and private subnet?
+27) security purpose, what are the best practices for securing data in vpc?
+28) How do you make sure the subnets should be highly available?
+29) What is a private ip?
+30) What is a gateway?
+31) Is it possible to block the port with NACL
+32) What is VPC?
+33) What is Subnet?
+34) How does a private subnet connect to the internet?
+35) Have you ever worked with an env where there is no NAT-gateway?
+36) What is reverse proxy and forward proxy?
+37) Have you used any reverse proxy before?
+38) What is bastion host and nat gateway
+
+
+
+ROUTE 53
+==================
+1) for example 40% of users coming from east, remaining 60% users from west?
+How can we make it on route 53?
+2) routing policy of route53?
+3) What is the failover scenario?
+4) How does DNS work?
+5) What is A name record and C name record?
+6) What is Route53 ??
+
+
+
+LOAD BALANCERS
+==========================
+1) What is the difference between nlb and alb ?
+2) Types of load balancers?
+3) Types of Load Balancer
+4) I have a running application but i want to attach one more vm to the same load
+balancer appln without down time?
+5) What is a sticky session in the Load balancer?
+6) Why use Load Balancers?
+7) diff b/w application load balancer and network load balancer?
+8) what are the security measures that you would take if you have attached a load
+balancer and with that some instances are also attached to it.
+9) D/f b/w alb and nlb?
+10) difference between TCP and UDP?
+11) What are the types of load balancers?
+12)ALB vs NLB
+
+
+
+CLOUD WATCH
+===================
+1) I have to check the CPU memory in the server. What tools are you using ?
+
+
+CLOUDFRONT
+===================
+1) Why use cloudfront?
+2) advantage of cloudfront
+
+
+SECURITY GROUPS
+===========================
+1) Difference between SG and NACL?
+2) nacl vs sg
+3) do you have any knowledge and any hands on experiences if possible based on
+that feature something Trigger something and control the a sg?
+4) Diff b/w SG and NACL
+5) nacl vs sg
+6) What is the security group?
+7) Security group stateless or stateful?
+8) Difference between stateful and stateless?
+9) Difference b/w Security Group and NACL??
+
+
+API
+=====
+1) What is the api gateway aws?
+2) api gateway
+
+
+EKS
+========
+1) How do you manage horizontal scaling of worker nodes in EKS?
+2) What is your reverse proxy service in EKS?
+3) How are your TLS and SSL certificates managed in EKS?
+4) What type of service are you using in EKS?
+5) How do you upscale volume in EKS?
+
+
+S3
+====
+1) Tell me about s3
+2) How can s3 be used with ec2 instances?
+3) I have a s3 bucket but i don't want to access outside applications?
+4) What is versioning in S3
+5) I will create 2 s3 buckets in 2 regions with the same name, next what will
+happen?
+6) How to access s3 which is another account from your account ec2?
+7) s3 lifecycle policy
+8) How many s3 buckets can we create in 1 Region?
+9) s3 lifecycle
+10) In s3 some life cycle rules,tell me what is all about?
+11)I want to restrict one user to one particular bucket,how you will do?
+12) bucket storagetype
+13) s3 lifecycle policy
+14) how to upload a big data like 1 TB to S3.(multi part uploading)
+
+
+CLOUD TRAIL
+====================
+1) purpose of cloud trail?
+2) for example i am accessing one of the aws services.In which aws service this
+information is available?
+
+
+LINUX
+=========
+1) linux commands
+2) How do you print a particular column in linux? What command do you use?
+3) How do you check disk usage in linux?
+4) just open your linux terminal . create one file in that file and replace the word by
+another word using sed command.
+5) I want to know specific directory storage.
+6) The top 5 processes cpu memory i want to know which command is used?
+7) in a directory we have a file. How can we delete one month old versions files?
+8) Timestamp Protocol in Linux
+9) Linux command for Password storage
+10) Linux command for unmask
+11) Linux to change the other user permission
+12) disk utilization linux command?
+13) memory utilization linux command
+14) What is the threat dump, heap dump ?
+15) Difference between grep and egrep?
+16) How to check what process is running?
+17) Difference between ping and telnet?
+18)How do you check memory usage in linux ?
+19) basic linux command
+20) linux basic commands
+21)lsblk
+22)mount a vol to instance via commands?
+23)What is the purpose of mount command?
+24)How can I check memory by using which command?
+25)I have a file, where it is we don't know how you can identify it?
+26)just your are searching www.google.com, in the backend what its going on?
+27)How much of a rating is given in Linux?
+28)What is the swipe space command?
+29) Can you tell me the SMTP port number?
+30) Can you please tell me if the particular port number is running or not?
+31) Have you used the SED command?
+32) What does awk command?
+33) Why are you using the grep command?
+34) What is the log's path in Linux?
+35) Can you tell me $? ?
+36) What is commendable if we want to copy all data from 1 bucket to another
+bucket?
+37) enter df -h command and print specific data in that which command is used?
+38)Root volume is full how will you troubleshoot it
+39) How to recover corrupted root vol data?
+
+
+TERRAFORM
+=====================
+1) Which files can you keep in main.tf?
+2) How can you create 10 instances at a time by using terraform?
+3) terraform files?
+4) terraform workspace?
+5) if tf state file is deleted, how can you delete the resources?
+6) What is terraform?
+7) State file in terraform
+8) How is IaC implemented using AWS
+9) I have a tfstate file? How to backup a tfstate file?
+10)Two users run the command terraform apply? Which user resource is created
+first?
+11)I created resources using terraform? in my local remove statefile and again i give
+terraform plan, and apply? What happened?
+12) What is terraform import?
+13)What does terraform refresh do?
+14) terraform validate command purpose?
+15) Can we have the 5 s3 bucket within the single code?
+16) I want to make the 100 ec2 with the same configuration ? what tools u will use?
+and how?
+17) terraform modules? Have you worked on that?
+18)Provisioners in terraform
+19)What are Workspaces in Terraform
+20) terraform functions? working scenario of terraform with cicd for dockerfile
+implementation, how we can have a build up image and its storage, meanwhile
+tell us about the tools used for this, which cicd u used and how ? if i have further
+changes do i need to write the whole again or some automation can be present?
+21) if i will get an error while doing terraform validate whether i will get or not
+terraform lock file?
+22) write a terraform code to create 10 ec2-instances and attached to the load
+balancer
+23) How to create all resources? creating manuals using any Ias?
+24) I will create 5 databases and I will create some resources on how to set up
+using terraform and how to divide different environments.
+25) Which command is mostly used in terraform?
+26) in terraform tell me the functions?
+27) write the terraform code to create the IAM role?
+28) terraform particular resource destroy command?
+29) Do you work in terraform?
+30) How to create a terraform module? Tell me the command?
+31) I already have an Aws account. We have to create resources, but why will you
+go terraform?
+32) terraform lifecycle
+33) terraform init
+34) In terraform i want to spin up one ec2 instance there will be a 4 lines code which
+we will write,what parameters we need to pass can you tell me the lines?
+35)Tell me a few commands of terraform ?
+36) stages in terraform
+37) What does the terraform init ?
+38) Did you write terraform code?
+39)Which info is available in the tf state file?
+40) What happens if we delete the tf state file and then again I applied a terraform
+plan and applied what happened?
+41) What is a module in terraform?
+42) In the module what files are available?
+43) what are the different stages of terraform?(pending/ create /update /destroy)
+44) terraform init ?
+45) where you can store the tf state file?
+46)What is terraform init?
+47) Terraform module..
+48) Terraform block.
+49) Null resource in terraform.
+50) Terraform taint.
+51) Have you worked terraforming ?
+52) What is the tfstate file?
+53) How to manage the tfstate file?
+54) What are the terraform commands used?
+55) What does terraform plan command?
+56) Did you face any challenge while using terraform?
+57) Where do you store your terraform tfstate file and how?
+58) what are the terraform modules and advantages
+
+RDS
+=====
+1) Do you work on the Dynamodb database?
+2) How do you create a read replica for the rds database?
+3) you have a RDS, having heavy incoming traffic is around and here you need to
+fix read and write replica in replica count.how?
+4) write is working fine and read replica is unable to control it as you have more
+incoming traffic, what are the measures you will take?
+5) I can't afford any downtime, how to recover the RDS?
+
+
+GIT
+=====
+1) What is git stash and git rebase ?
+2) Do you have git experience ?
+3) Tell me about GIT? the purpose of GIT?
+4) Tell me about git commands
+5) what is your branching strategy
+6) What are the strategies in git?
+7) What is git merge?
+8) What is git rebase?
+9) What is git cherry pick?
+10)What is git fetch and git pull?
+11) how can we revert the deleted branch in git?
+12)What are Gitops Practices?
+13) What is the use of git cherry pick?
+14) Why do we use git stash?
+15) What is git rebase?
+16) branching strategy used in your environment
+17) diff between git merge and git rebase
+18) git cherry-pick
+19) Gitops strategy
+20) about github?
+21)What are the commands used for github to create a registry?
+22)What is git rebase, git fetch and git full?
+23) Merge conflict
+24) branching strategies
+25) Do you have git experience?
+26) Why use git?
+27) what does the git add . command?
+28) How do push the code local repo to the remote repo?
+29) How to create a new branch in git?
+30) What is d/f b/w git and svn,why is git more popular?
+31) What is git revert and reset?
+32) How do you clone a git repo with a tag name?
+33) push code into your test-branch(repo) then another team member will merge that code
+into the main-branch(repo). then code is not working how do you resolve that?
+
+
+JENKINS
+============
+1) What are the stages in Jenkins ?
+2) Jenkins master slave configuration
+3) What is cicd flow ?
+4) Please write a Jenkins file?
+5) Difference Between scripted pipeline & Declarative pipeline
+6) difference declarative and scripted pipeline?
+7) Difference b/w master and slave in Jenkins
+8) I have a jenkins machine. How to integrate Jenkins to kubernetes?
+9) write the jenkins pipeline
+10)How do u configure master slave configuration
+11)Plug-ins used in Jenkins
+12)How to take backup of Jenkins machine
+13)Explain the CICD process
+14)how do you call the variables in pipeline
+15)how do you pass the secret in jenkins pipeline
+16) PING threat in jenkins?
+17) How to transfer the console log for a particular jenkins build?
+18) CI achieved using jenkins?
+19) What is the CICD pipeline?
+20) Diff types of Pipeline?
+21) How to set up Jenkins' job? Steps to have a Jenkins job?
+22) Most useful plugin jenkins?
+23) How can you integrate jenkins with kubernetes?
+24) Can we monitor jenkins using common monitoring tools
+25) Tell me the cicd flow?
+26) How can you trigger a job in jenkins?
+27) What is a webhook in jenkins?
+28) Which server is used for deployment applications in jenkins?
+29) If we want to deploy app ec2-to jenkins how do you configure it?
+30) Do you have a cicd deployment code deploy and code pipeline?
+31) What kind of automation do you have to do in jenkins?
+32) define continuous integration and continuous deployment, continuous delivery
+33) What are the cicd strategies?
+34) Do you work in a prod Environment?
+35) In your Organization how to deploy applications? any automation (or) manual?
+36) explain your environment cicd flow
+37)why we are using jenkins and explain jenkins pipeline
+38)If we have two environments, suppose 1.test 2.prod how you are maintaining
+these two environments in the same aws account or another aws account and
+why ?
+39) What is the difference between continuous delivery and deployment?
+40) cicd ?
+41) What is the Jenkins pipeline?
+42) Tell me how you create a Jenkins job and explain step by step?
+43)How do you check code quality?
+44) Different between scripted pipeline and declarative pipeline?
+45) explain your environment cicd flow
+46) What type of pipeline is used in your environment?
+47) write jenkins file
+48) Explain the jenkins architecture?
+49) write a scripted pipeline
+50) how to trigger jenkins once u have changed the port from 8080 to 8081?
+51) Why do we use master-slave architecture?
+52) Most useful plugin jenkins?
+53) authentication techniques of jenkins
+54) Did you write the Jenkins pipeline?
+55) What is the purpose of /etc/passwd?
+56) where you can store your password file?
+57) what happen if we delete that password file
+58) Plugins used in Jenkins.
+59) How are you using sonarqube?
+60)Can you explain the cicd pipeline?
+61)What kind of pipeline are you following?
+62) What is the difference between a declarative pipeline and a scripted pipeline?
+63) What is a multibranch pipeline?
+64) How do you manage the pipeline?
+65) Write a declarative pipeline with 5 stages?
+66)What is elastic trans coders??
+67)How do you manage secrets in jenkins ??
+68)explain about jenkins and pipline's
+
+Maven
+=========
+1) What is Archetype in maven?
+
+
+DOCKER
+=============
+1) What does docker explain in detail ?
+2) I have a Dockerfile in that dockerfile consumes heavy storage? how to decrease
+the storage?
+3) Difference between copy and add?
+4) docker list commands what you have used in your environment?
+5) How to create a docker container?
+6) Docker image and container?
+7) Any way to identify the status of docker containers?
+8) What is DOcker?
+9) How to login to a container.
+10) What are the DOcker networks?
+11) Are you creating any Docker network?
+12) Why are you creating Docker networks?
+13) How can we mount volume on containers?
+14) difference between cmd and entry point?
+15) How can we see an image in depth?
+16) Write a Dockerfile For nginx?
+17) .Difference between CMD and Entrypoint?
+18) write the docker file for the tomcat
+19) explain any kind of dockerfile
+20) docker file for tomcat by using ubuntu latest? multi stage layer
+21) What is the purpose of docker hub?
+22) Difference between CMD and EntryPoint
+23) how to identify the port mapping of existing container in docker
+24) Difference between ARG and ENV
+25) Difference between ADD and COPY Command in docker file?
+26) How to decrease Docker Image file size?
+27) Difference between cmd and entrypoint
+28) In your project how you will use docker and k8s,tell me the process?
+29)What is docker and what is the use of docker?
+30) How will you scan docker images?
+31) Are you following any standards and guidelines to create dockerfile?
+32) How many dockerfiles have you written?
+33) Can you tell me why we use a multistage dockerfile?
+34) Can you tell in a single docker file if we can run multiple CMD commands?
+35) Can you tell me what the entry point is?
+36) How to list docker networks in docker?
+37) How to stop running containers in docker?
+38) Have you worked with docker-compose? at least you know why we use
+docker-compose?
+39) Do you assure or remove root permissions in dockerfile?
+40) What is Docker ??
+41) Write a dockerfile?
+42) What is d/f b/w cmd and entrypoint?
+43) What is on build instruction in dockerfile?
+44) diff between docker and docker-compose,docker hub
+45)Difference between Copy and Add in Docker file
+
+
+ECS
+======
+1) tell me ecs service it is one of AWS service?
+
+
+KUBERNETES
+====================
+1) one container goes down, what's your immediate reaction ?
+2) diff between pod and node ?
+3) What is the purpose of the ingress controller ?
+4) diff between taint & toleration
+5) how to create a user in a service ?
+6) Difference between deployment and STS?
+7) what is ingress controller
+8) have you work on production support
+9) trouble in production environment you did
+10)what is taint and toloration
+11)what is the requirement that you need that the pod should be deploy on particular
+node only
+12)tell me about image pull back error or crash loop back
+13)have you call secret
+14)have you work on volume in kubernetes
+15)you have java base application and you made change in config map what would i
+need to do that my deployment get that change
+16)what is roll out deployment
+17)you did rollout restart but your pod is not coming up what will you do ? they have
+crash loop back error
+18)what is the requirement to connect to cluster
+19)what does the kubeconfig file contain
+20) Difference between deployment and replica set in kubernetes?
+21) what is deomenset?
+22) what is difference between nodeport and clusterip?
+23) why using service in kubernetes?
+24) I want to go particular pod is particular node what you do?
+25)Kubernetes architecture
+26) what is service account?
+27) can you tell deployment syntax?Are you taking service type loadbalancer and
+what the happening behind it?
+28)Diff between job and pod?
+29) what is the diff between external ip and load balancer ip in k8s?
+30) Are you taking service type loadbalancer what the behind happening? Diff
+between configmap and secret?
+31) what was role lode balancer in kubernetes?
+32) why do we use name space?
+33) how do we run pods in particular node?
+34) what is troubleshooting you do if pods get down?
+35) what are the types of network services available in kubernetes?
+36) I have a pods in kubernetes how to give s3 access in perticular pods?
+37) difference between daemon set and statesful set
+38) when we are going to use of daemon set and statesful set ?
+39) I edited the config map /service account while running can it will effect the
+application ?
+40) how to attach the pod to s3 bucket?
+41) how to make the best way of securing the pod in the network part?
+42) have you setup any kubernetes cluster
+43) how you are deploying on k8s
+44)i wanted to run a application so as a devops guy what you do tell me from
+scratch.
+45) k8s architecture?
+46) In Kubernetes what is the use load balancers?
+47) Diff b/w deployment and service?
+48) I have a many micro services in kubernetes how to configure the database?
+49) what is ingress in kubernetes?
+50) what are the types of load balancers?
+51) How to access the s3 bucket from the Pod
+52) Difference between Kubelet and kube proxy?
+53) Explain the kubernetes architecture?
+54) Write the deployment.yaml file?
+55) what is ingress network?
+56) architecture of k8s
+57) Recent ticket that you have solved in k8s
+58) PV and PVC
+59) Types of PV-----dynamic and static
+60) How do you create Config-Map and whole integration of jenkins and k8s.
+61) Diff between job and pod?
+62) when the developer send the code how will you deploy into the K8S tell me the
+process?
+63) where we store secrets in k8s?
+64) why does a pod goes to pending state?
+65) request and limits
+66) where can we store secrets in k8s?(config map)
+67) what is the role of scheduler?
+68) What are the components of k8s?
+69) 80 pods are running in cluster, how can u make sure they don't even connect to
+each other?(namespace)
+70) a pod which ran into somewhere else, when you describe that it says
+node-affinity error, how to fix that issue?(annotation and labels).
+71) What are all the errors you have faced in k8s?(image pull/ crash pull/ssl error/api
+version/resources error/ network error/ latency)
+72) when does a pod goes to pending state?(lack of resources/ network/ image
+pullback)
+73) what ingress controller you are using either nlb or alb?
+74) What is nginx ingress controller?
+75) how will you check the secret in the namespace?
+76) default name spaces.
+77) Does nginx ingress controller support tcp?
+78) What type of application you have worked on in Kubernetes?
+79)What purpose are you using Cron job?
+80)what are the service types in Kubernetes?
+81) Do you know what is the difference between blue-green deployment and rolling
+update?
+82) Why do you use load balancer service type?
+83) what type of strategy follows in Kubernetes?
+84) what is pod description?
+85) what do taint and toleration?
+86) Do you work on helm charts?
+87) Are you following any standards and guidelines to create yaml files?
+88) Which volumes are you using for k8S,aws or other?
+89) Where do you store yaml files?
+90) How do you validate deployment?
+91) How do you login to eks cluster?
+92) What is kubernetes and why it is ?
+93) What are stateful set in K8S?
+94) What is RBAC in K8S?
+95) What Is TLS Bootstrapping in K8S?
+96) I want to deploy an app with internet at initial stage,how to come with request as
+a lead cloud engineer
+
+
+Helm
+=====
+1) have work on helm
+2) directory structure of helm
+3) how to check syntax is correct in helm
+4) how mapping of value is helm
+5) how to build the helm chart
+6) advantages of helm
+7) .Why do you prefer a helm?
+8) What are the folder structures and files created in helm?
+
+
+ECR
+=======
+1) what is the permission required for fetch the image from ecr
+2) Have you used the EKS service or ECS service?
+3) How do you call ecr login credentials into the script write command for it?
+
+
+ANSIBLE
+============
+1) Can you write ansible playbook?
+2) Ansible playbooks
+3) Ansible: What is a module and what is a play book ?
+4) I have 200 servers? how to deploy 200 servers at a time?
+5) How to deploy multiple servers using Ansible?
+6) have you work with ansible and give me one scenario
+7) write automation script for copying source code to multiple servers
+
+
+
+PROMETHEUS AND GRAFANA
+===========================================
+1) prometheus & Grafana metrics
+2) Explain the Prometheus and Grafana Configuration?
+3) Which type of monitoring tool and tracking any issues?
+4) What are the monitoring tools you have worked and have to troubleshoot on?
+5) what is the heapster?(collects resources data in metrics format and fetches tools
+like grafana and other monitoring tools).
+6) how do you monitor the application how do you get the alerts
+
+
+
+ELK
+======
+1) Do you know how to send the logs? and which tool you are using?
+2) what kind of centralized logging tool use
+3) Did you set up the elk?
+4) Let's say there are 20 application servers, how many servers do you need for
+elastic search, kibana and for logstash?
+
+
+LAMBDA
+============
+1) What is the use of the lambda function ?
+2) explain lambda functions?
+3) What is Auto Scaling in Lambda?
+4) I am creating a lambda function. I am trying to download files from s3, am I
+unable to do that?
+5) lambda function every day at 6pm it will stop, how can you go?
+6) lambda service in AWS.
+7) different methods to invoke the lambda function?
+
+
+
+PYTHON
+============
+1) Can you write any python programs?
+2) Have you written any automation using shell script ?
+3) Are you working on any python project to explain that ?
+4) write a python program for palindromes?
+5) write a program for reversal of a string?
+6) write a program the list is to be converted to a string?
+7) write a python program to connect rds
+8) write a list program using list comprehension?
+9) Do you know any programming languages and any scripting languages?
+10)write a list program replace with "," by "-" using list functions?
+11) write the python program to find the missing number?
+12) Using python Arr=(0,0,1,0,1,1,0) all 0's should come to the left side and all 1's
+should come to the right side? can you write the syntax
+13) Write the python program to fetch the largest number from the list?
+14) Have you written any automation using shell script?
+15) In the shell script I want to run background?
+16)How do you read command line arguments in Shell scripting
+
+
+
+
+
+============================================================================================
+
+
+1.tf state file and backup file. 
+2.Crash Loop backup
+3.how will you interact with java and pythan by jenkins. 
+4. What build tool you are using. 
+5.how will you take approval
+6.how will you take database backup by using shell scripting
+7.docker file
+8.nginx ingress controller. 
+9.integrating with cluster to monitoring tools
+10.ingress controler version. 
+11. How will you give the logs for 20 applications. 
+12.how will you deploy nginx ingress controler. 
+13. We deployed multiple applications through terraform some one changed  some thing in console how can you trouble shoot and will you destroy?
+14.nategateway and nat instance
+15.what is headless service
+16.external name in k8s
+17.karpenter in k8s
+18.validate and muteupdate.
+
+company standard chartered
+========================== 
+1. What is headless service? which type of deployment we use in headless service? exactly where we use it?
+2. Diff between init cont. nd side car cont?
+3. What are epheral storage? and ephemeral containers? why do we use it?
+4. which type of container you are familier with in k8s? which verson and why did you moved to it? which is the latest and stable version youare using?
+5. Why containerd is adopted by k8s community?
+6. Diff between config-map and secret?
+7. Can't we use ENV parameter instead of Config-map?
+8. in the appln, each pod takes the ip and appln grows but pods are running concurrently , how will you make sure tht the pod will get the new ip for new pods?
+9.  How will you scale k8s? have you heard about eks-cluster-auto-scaler? 
+10. In docker, what is distroless image in docker?
+11. Why we use multi-image docker strategy?
+12. In Terraform, what are the top blocks in terraform? 
+13. I want to see the list of resources which are controlled by terraform currently?
+14. What are the steps and stages so as to reach till production  jenkins if you are done with tearrform and you have the code in git repo?
+
+===============================
+1. AWS Lamda, SNS and SQS
+2. Dynamo DB
+3.end to end setup
+4.Disaster recovery
+5.Roles and responsibilities in monitoring tools
+6.Cycle errors in Terraform
+7.strings and variables in tf
+8.serverless services
+9.Elastic search
+
+============================
+1.diff between scripted and declarative pipeline. 
+2.write docker file. 
+3.how to deploy an application in k8s. 
+4.how to create a user in docker
+5.service types in k8s
+6.deployment and statefulset   and demonset. 
+7.ngnix ingress controler
+8.service.yaml
+9.how you configure grafana and prometheus  in k8s
+10. How will you check the logs in k8s. 
+11.CMD and Entrypoint. 
+12.Crash Loop backup error.
+
+================================
+1.command to remove container. 
+2.How will you check the list of ports in linux. 
+3.what does echo $? 
+4.difference between bash and scripted pipeline. 
+5.How will you list the continers. 
+6.complete setup to getting docerfile and deployment.
+
+
+1.what is abstraction,encapsulation,inheritance, polymorphism.
+2.what is the difference between set and tuple. 
+3.tell some use cases of set and tuple.
+4.what do u mean by decorator and iterator.
+=============================
+
+Elastic search
+________________
+1.Types of nodes in elastic search. 
+2.which tools elastic search will support. 
+3.Different components of elastic stack. 
+4.explean elastic search, logstach and kibana. 
+5.how to delete index in kibana. 
+6.how to search indexid in elastic search. 
+7.what is the role of kibana stack. 
+8.how many types of queries in kibana. 
+9.which toles are supported by ELK. 
+10.NRT in elastic search. 
+12.comands in kibana. 
+13.what is file beat in ELK. 
+13.types of analysers in kibana. 
+14.types of queries in visual interface. 
+15.what is kibana visual interface. 
+16.kibana components. 
+17.different types of operations in kibana dashbord. 
+18.kibana yaml file example. 
+19.kibana docker file example.
+
+
+compamy name: nagarro
+======================
+
+1) Tell Me About Your Self ?
+
+2) what is mean by concurrency ?
+
+3) what is difference of prism in golang ?
+
+4) write a basic code of golang ?
+
+5) what is mechanism syncing in golang ?
+
+6) can you explain in inheritance in golang ?
+
+7) difference between buffered and unbuffered channel in golang ?
+
+8) what are the different storage classes in s3 ?
+
+====================================
+
+1.Algorithms in route53.
+2.Dynamic block in tf. 
+3.DNS Registration. 
+4.vpc components. 
+5.why won't you deploy your yaml files in the master node? 
+6.what is demonset. 
+7.how will you integrate with sonarqube in jenkins. 
+8.what deployment object is preferred by database. 
+9.diclarative vs scripted. 
+10. Networking components.
+
+===============================
+
+Python 
+1. Print the range of  1 to 13 numbers  program.
+2.what is abstraction. 
+3.what is class
+4.what is null pointer.
+5.what is array.
+6.database - joints 
+7.database  - primary key , foreing key difference
+
+=========================================
+Flipcart
+__________
+1.what is elk
+2.explain application load balancer
+3.I have 10 vms attached to the load balancer.. 10 have 1000 users and one machine is not working.... How the traffic will go. 
+4.cron job will monitor logs every 10 m
+5.why we need a load balancer
+6.git commands
+7.git squash
+8.docker file
+9.difference between docker image and docker continer. 
+10.how will you deploy application in k8s. 
+11.how will you checks the logs
+12.blue green department
+13.canary department
+14.how are you using grafana and promuthes
+15.how will you check the logs of pod. 
+16.how will you check the logs in server. 
+17.chown vs chmod
+18.will you take back of given permissions
+19.setting alert when disk usage is greater than 90%
+20.how will you search xyz content in a file. 
+21.how will you check the logs in server
+22.what is head and tail
+23.how will You find above 10 or below 10 lines by using grep command. 
+24.SNS and SQS
+25.how will you check the process. 
+26.how will you kill the process 
+27.checking cpu and  ram in vm.
+
+===============================
+
+1.SRE vs Devops
+2.SLA and SLO
+3.Error budget in devops
+4.what purpose we are using monitoring tools. 
+5.Nagious work flow
+6.How will you configure data source in promuthes. 
+7.Data types in python
+8.List and tuple in pythan
+9.Terraform commands
+10.How will you destroy particular resource in tf
+11.what will happen when we go with terraform apply. 
+12.How eks will Work on your environment. 
+13.EKS Architecture.
+
+============================
+
+company:anblicks
+
+1.tell about your self?
+2.what is vpc?
+2.have you work with docker?
+3.what is docker?
+4.write docker file?
+5.write jenkins file?
+6.what is terraform module?
+7.explain your environment cicd flow?
+
+
+
+Accolite Digital India Private Limited
+======================================
+tell me about your self?
+which devops tools r u using in ur env?
+write a ansible palybook? purpose of that?
+how to integrate to jenkins ?
+what is static and dynamic inventory?
+tell me the cicd flow?
+do you know shell scripting?
+what is role binding in k8s?
+tell me the deployment.yaml? in that where we can pass image name?
+how can we interact with different namespaces by using service discovery which command r u using?
+
+======================================================================
+
+TechMahindra
+----------------
+1.How to restrict the jobs in Jenkins for different users
+2.Explain Jenkins pipeline code for deploying docker container
+3.What are the steps and what actions you will take to upgrade Jenkins in production.
+4.How to take backup in Jenkins
+5.Where you are storing credentials in Jenkins
+6.If I forgot admin password for Jenkins how would you resolve this
+7.Difference between EBS and EFS
+8.What are the types of EBS
+9.Jenkins is not in running state how would you troubleshoot explain the flow with commands
+10.Tell me daily activities what you would do in your organisation
+11.Explain the terraform flow
+12.Explain CICD flow in Jenkins
+
+===========================================
+
+DevCare Solutions
+====================
+1) tell me about yourself 
+2) what is auto-scaling group 
+3) I have 10 ec2 instances one of the instances got down how do you troubleshoot 
+4) tell me about ebs volume
+5)Difference between EBS and EFS 
+6) tell me about vpc peering 
+7) Do you have any experience on coding 
+8) cicd flow 
+9)how will you deploy application in k8s
+10) how does the sonarq work
+11)How to create a docker container?
+12)How to setup jenkins job? steps to have jenkins job? 
+13)Most some useful plugin jenkins?
+
+================================================
+
+TechMahindra
+--------------
+
+1.How to restrict the jobs in Jenkins for different users
+2.Explain Jenkins pipeline code for deploying docker container
+3.What are the steps and what actions you will take to upgrade Jenkins in production.
+4.How to take backup in Jenkins
+5.Where you are storing credentials in Jenkins
+6.If I forgot admin password for Jenkins how would you resolve this
+7.Difference between EBS and EFS
+8.What are the types of EBS
+9.Jenkins is not in running state how would you troubleshoot explain the flow with commands
+10.Tell me daily activities what you would do in your organisation
+11.Explain the terraform flow
+12.Explain CICD flow in Jenkins
